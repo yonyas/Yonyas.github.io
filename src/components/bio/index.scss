@@ -5,13 +5,14 @@
 
   .author-description {
     display: flex;
+    align-items: center;
   }
 
   .author-image {
-    margin-top: 12px;
     margin-right: 12px;
     margin-bottom: 0;
-    min-width: 72px;
+    min-width: 90px;
+    min-height: 90px;
   }
 
   .author-name-prefix {
@@ -21,7 +22,7 @@
 
   .author-name-content {
     display: inline-block;
-    font-size: 95%;
+    font-size: 100%;
     padding: 2px 6px;
     font-weight: bolder;
     border-radius: 8px;
@@ -31,7 +32,7 @@
 
   .author-introduction {
     margin-top: 4px;
-    font-size: 80%;
+    font-size: 90%;
     line-height: 1.4;
   }
 
@@ -41,7 +42,7 @@
 
   a {
     margin-right: 8px;
-    font-size: 80%;
+    font-size: 90%;
 
     &.visited {
       text-decoration: none;

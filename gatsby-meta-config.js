@@ -1,12 +1,12 @@
 module.exports = {
-  title: `Bee starter`,
-  description: `Blog posted about ...`,
-  author: `[Your Name]`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  title: `Yonyas 블로그`,
+  description: ``,
+  author: `Jiyon Lee`,
+  introduction: `근성`,
+  siteUrl: `https://yonyas.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
+    github: `Yonyas`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
@@ -16,10 +16,10 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'Yonyas/blog-comments', // Your repository for archive comment
   },
   configs: {
-    countOfInitialPost: 10, // Config your initial count of post
+    countOfInitialPost: 200, // Config your initial count of post
   },
   sponsor: {
     buyMeACoffeeId: 'jbee',

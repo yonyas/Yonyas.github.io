@@ -10,7 +10,6 @@ import './index.scss'
 
 export const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
-
   return (
     <React.Fragment>
       <Top title={title} location={location} rootPath={rootPath} />
@@ -18,14 +17,14 @@ export const Layout = ({ location, title, children }) => {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(27),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
         <ThemeSwitch />
         <Header title={title} location={location} rootPath={rootPath} />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </React.Fragment>
   )
