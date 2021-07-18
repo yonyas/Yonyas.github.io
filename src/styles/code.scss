@@ -24,7 +24,7 @@ blockquote {
 
 code[class*='language-'],
 pre[class*='language-'] {
-  color: #fff;
+  color: rgb(245, 245, 245);
   background: none;
   font-family: 'Fira Code', 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono',
     monospace;
@@ -63,7 +63,6 @@ pre[class*='language-'] {
 
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-  // background: rgb(36, 36, 36);
   background: rgb(51, 51, 51);
 }
 
@@ -81,11 +80,12 @@ pre[class*='language-'] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #4fb845;
+  color: rgb(160, 160, 160);
 }
 
 .token.punctuation {
-  color: #fff;
+  color: rgb(245, 245, 245);
+  // color: #e2777a;
 }
 
 .token.tag,
@@ -101,7 +101,7 @@ pre[class*='language-'] {
 
 .token.boolean,
 .token.number {
-  color: rgb(255, 145, 0);
+  color: orange;
 }
 
 .token.function {
