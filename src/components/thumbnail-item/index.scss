@@ -9,6 +9,12 @@
   transition: text-shadow 0.3s, opacity 0.4s;
   opacity: 0;
 
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   p {
     font-size: 90%;
     line-height: 1.4;
@@ -16,6 +22,10 @@
 
   h3 {
     font-size: 1.2rem;
+  }
+
+  span {
+    font-size: 80%;
   }
 }
 

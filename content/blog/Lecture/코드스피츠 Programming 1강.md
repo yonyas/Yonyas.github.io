@@ -66,6 +66,63 @@ for문을 짜면 필수적으로 저장소가 등장한다.
 
 ## 과제: 1차원배열의 합 재귀, 꼬리재귀, for문 세개 코드 작성하기
 
+#### 내가 짠 코드
+
+```js
+//재귀
+const sum = (s, i) => (i > 0 ? s[i] + sum(s, i - 1) : s[0])
+
+//꼬리물기
+const taleSum = (s, i, acc) =>
+  i > 0 ? taleSum(s, i - 1, acc + s[i]) : acc + s[0]
+
+//for문
+const arraySum = s => {
+  let acc = 0
+  for (let i = s.length - 1; i >= 0; i--) acc += s[i]
+  return acc
+}
+```
+
+#### 학생의 코드
+
+```js
+const recursive = (list, index = 0, acc = 0) => {
+  if (!Array.isArray(list)) return 0
+  if (typeof list[index] !== 'number') return acc
+  return recursive(list, index, acc + list[index])
+}
+```
+
+학생 코드리뷰 내용
+
+#### 오류와 실패
+
+오류는 있는데 실패하지 않는 경우 : 내부에 있는 함수나 기능이 \*내결함성을 갖는 경우
+
+\*내결함성 : 오류가 발생했을 때 버티는 경우, 대부분 런타임에러가 안생기는 대신 컨텍스트 에러가 생긴다. 프로그램이 죽지는 않지만 결과가 엉뚱하게 나온다. 안정성은 있지만 신뢰성이 제거된다. 안정성과 신뢰성은 trade-off 관계.
+무조건 신뢰성을 높여라. 안정성은 시니어가 된다면 신경써라.
+
+프로그램에서 무서운 것은 컨텍스트 에러. 오류를 감추는 내결함성을 도입할 때는 신중해야 한다. 일반적인 경우 내결함성 도입은 무조건 좋지 않다. 내결합성을 갖추지 않고 오류를 표출하게끔 바꿔줘야 한다.
+
+아래처럼 수정
+
+```js
+const recursive = (list, index = 0, acc = 0) => {
+    if (!Array.isArray(list)) throw `invalid list ${list}`;
+    if (typeof list[index]) !== 'number') throw `invalid element ${index}:${list[index]}`
+    return recurseve(list, index, acc + list[index]);
+};
+// 결정을 사용자가 해야 함.
+// throw 대신 return 0 등으로 쓰는 것은 사용자의 권리를 뺏는 것.
+let result = 0;
+try {
+	result = recursive(17)
+} catch(e) {
+    result = -1
+}
+```
+
 ## 강의링크
 
 https://youtu.be/0lAsf19iE2g
