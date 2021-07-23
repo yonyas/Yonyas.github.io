@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://yonyas.github.io/Lecture/변수의 라이프사이클과 스코프/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Lecture/내결함성과 역할모델/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/Lecture/4.변수의 라이프사이클과 스코프/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/Lecture/3.변수의 라이프사이클과 스코프/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/Lecture/2.내결함성과 역할모델/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/React/React Router에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/CSS/Styled-components에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/sort()에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Lecture/재귀,꼬리물기최적화,for문/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/Lecture/1.재귀,꼬리물기최적화,for문/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/npm/npm install `--force` and `--legacy-peer-deps` 차이점/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/회고/나의개발의길/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/React-native/[ReactNative] Import SVG file/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
