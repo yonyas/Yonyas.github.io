@@ -2,7 +2,7 @@ module.exports = {
   title: `Yonyas 블로그`,
   description: ``,
   author: `Jiyon Lee`,
-  introduction: `근성`,
+  introduction: `뿌리깊은 나무`,
   siteUrl: `https://yonyas.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account

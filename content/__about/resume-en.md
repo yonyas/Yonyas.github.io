@@ -1,13 +1,15 @@
 ---
 title: 'about'
-date: 2019-1-27 16:21:13
+date: 2021-7-21 16:21:13
 lang: 'en'
 ---
 
-# Your name
+# 이지연입니다.
 
 <div align="center">
 
-_Thank you for reading my resume. If you want to contact me, Please send me an email._
+📧 Email : jiyonlee.d@gmail.com  
+😽 Github: github.com/Yonyas  
+💻 Blog : yonyas.github.io
 
 </div>

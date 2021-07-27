@@ -158,7 +158,7 @@ ReactDOM.render(
 )
 ```
 
-#### 6. variables.css, color.css 등 지정하기
+#### 6. style.css 등 theme 지정하기
 
 테마 만들기
 
@@ -202,6 +202,51 @@ const ProfileName = styled.span`
 `
 ```
 
+#### 7. variable.css 같은 mixin 사용하기
+
+만들기
+
+```jsx
+// variables.js
+import { css } from 'styled-components'
+
+export const flexSet = (justify = 'center', align = 'center') => css`
+  display: flex;
+  justify-content: ${justify};
+  align-items: ${align};
+`
+
+export const mediaQuery = {
+  BREAK_POINT_MOBILE: 760,
+  BREAK_POINT_TABLET: 1060,
+}
+
+export const mainPadding = (desktop = '60px', tablet = '40px') => css`
+  padding: 10px 60px;
+
+  @media only screen and (max-width: ${mediaQuery.BREAK_POINT_TABLET}px) {
+    padding: 10px 40px;
+  }
+`
+```
+
+사용하기
+
+```jsx
+//사용할.js
+import { flexSet } from '../../styles/Variable'
+import { mediaQuery } from '../../styles/Variable'
+import { mainPadding } from '../../styles/Variable'
+
+const BottomNavContainerInnerWrapper = styled.div`
+  ${flexSet()}
+  max-width: 1256px;
+  height: 50px;
+  margin: 0 auto;
+  ${mainPadding()}
+`
+```
+
 ### 불편했던 점
 
 컴포넌트와 스타일드컴포넌트가 동일하게 생겨서 헷갈린다.
@@ -209,3 +254,7 @@ const ProfileName = styled.span`
 ### 참고
 
 https://styled-components.com/docs
+
+```
+
+```

@@ -42,6 +42,22 @@ array.sort(function(a, b) {
 */
 ```
 
+## 프로그래머스 문제를 통해서 sort() 활용하기
+
+**문제** : 가장 큰 수  
+**설명** : 주어진 정수가 [6, 10, 2]라면 [6102, 6210, 1062, 1026, 2610, 2106]를 만들 수 있고, 이중 가장 큰 수는 6210. 6210을 string으로 리턴
+
+```js
+function solution(numbers) {
+  let answer = numbers
+    .map(v => v + '') // string으로 만들어준다.
+    .sort((a, b) => b + a - (a + b)) // string - string = number
+    .join('')
+
+  return answer[0] === '0' ? '0' : answer
+}
+```
+
 ### 출처
 
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
