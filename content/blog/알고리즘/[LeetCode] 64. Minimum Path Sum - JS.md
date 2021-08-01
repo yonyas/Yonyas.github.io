@@ -1,5 +1,5 @@
 ---
-title: 'LeetCode 64. Minimum Path Sum - JS'
+title: '[LeetCode] 64 Minimum Path Sum - JS'
 date: 2021-05-16
 category: '알고리즘'
 draft: false

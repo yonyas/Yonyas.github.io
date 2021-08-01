@@ -1,5 +1,5 @@
 ---
-title: 'LeetCode 283. Move Zeroes - python'
+title: '[LeetCode] 283. Move Zeroes - python'
 date: 2021-03-28
 category: '알고리즘'
 draft: false
