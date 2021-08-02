@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://yonyas.github.io/알고리즘/[프로그래머스] 로또의 최고순위와 최저순위/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/알고리즘/[프로그래머스] 타겟넘버/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/CSS/[CSS] flex grow, shrink, basis에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/JavaScript/4.미정/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/JavaScript/3.변수의 라이프사이클과 스코프/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/JavaScript/2.내결함성과 역할모델/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/React/React Router에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/JavaScript/sort()에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/CSS/Styled-components에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/JavaScript/1.재귀,꼬리물기최적화,for문/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/npm/npm install `--force` and `--legacy-peer-deps` 차이점/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/생각기록/나의개발의길/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/알고리즘/[프로그래머스] 로또의 최고순위와 최저순위/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/알고리즘/[프로그래머스] 타겟넘버/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/CSS/[CSS] flex grow, shrink, basis에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/JavaScript/4.미정/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/JavaScript/3.변수의 라이프사이클과 스코프/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/JavaScript/2.내결함성과 역할모델/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/React/React Router에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/JavaScript/sort()에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/CSS/Styled-components에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/JavaScript/1.재귀,꼬리물기최적화,for문/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/npm/npm install `--force` and `--legacy-peer-deps` 차이점/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/생각기록/나의개발의길/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/React-native/[ReactNative] Import SVG file/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/React-native/[ReactNative] 화면 사이즈/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/React-native/[ReactNative expo] 시작할 때 알면 좋은 것들(에러해결기)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Projects/은행의집/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Projects/코코아 프렌즈 마트/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/알고리즘/[LeetCode] 64. Minimum Path Sum - JS/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Projects/[React] 인스타그램/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/삽질기/[우분투] 우분투에서 와콤 세팅 삽질기록/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Projects/인스타그램/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/CSS/[CSS] float에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/알고리즘/깊이우선탐색(DFS, Depth-First Search)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/알고리즘/[LeetCode] 283. Move Zeroes - python/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Projects/점프 게임/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/CSS/img태그를 이용해서 이미지가 항상 center를 보여주도록 반응형 배경 만들기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/CSS/검색창 클릭시 아이콘 포함 테두리 생기기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/삽질기/npm error부터 firebase hosting error까지 해결기록/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/React-native/[ReactNative] 화면 사이즈/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/React-native/[ReactNative expo] 시작할 때 알면 좋은 것들(에러해결기)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/Projects/은행의집/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/Projects/코코아 프렌즈 마트/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/알고리즘/[LeetCode] 64. Minimum Path Sum - JS/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/Projects/[React] 인스타그램/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/삽질기/[우분투] 우분투에서 와콤 세팅 삽질기록/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/Projects/인스타그램/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/CSS/[CSS] float에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/알고리즘/깊이우선탐색(DFS, Depth-First Search)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/알고리즘/[LeetCode] 283. Move Zeroes - python/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/Projects/점프 게임/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/CSS/img태그를 이용해서 이미지가 항상 center를 보여주도록 반응형 배경 만들기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/CSS/검색창 클릭시 아이콘 포함 테두리 생기기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/삽질기/npm error부터 firebase hosting error까지 해결기록/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
