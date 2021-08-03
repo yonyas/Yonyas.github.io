@@ -48,12 +48,12 @@ _The reason this helps is that somehow, your registry settings got set to someth
 node 와 npm 버전이 맞지 않으면 문제가 될 수 있다고 한다.
 혹은 내가 설치한 node 버전이 너무 최신일 수도 있다는 생각이 들었다.
 
-> 내가 설치한 버전
-> node : v16.6.0
-> npm : v7.19.1
+node LTS version 인 14.17.4로 바꿔봐야겠다.
+npm은 그에 맞는 버전인 6.14.4로 변경했다.
 
-node LTS version 인 ==14.17.4==로 바꿔봐야겠다.
-npm은 그에 맞는 버전인 ==6.14.4==로 변경했다.
+> node : v14.17.4
+> npm : v6.14.4
+
 <img width="902" alt="스크린샷 2021-08-02 오후 1 13 56" src="https://user-images.githubusercontent.com/60434382/127806177-814767bb-e66f-45bc-8c74-7723affb2a14.png">
 
 이런 찜찜한 에러와 함께 쨋든 에러가 **해결**되었다.
@@ -70,5 +70,5 @@ npm은 그에 맞는 버전인 ==6.14.4==로 변경했다.
 
 ### npm run deploy
 
-백엔드에서 서버를 가져올 때 뭔가 엉킨 것 같았다. 그래서 `npm run deploy`를 하니까 잘 실행되었다.
+백엔드에서 서버를 가져올 때 뭔가 엉킨 것 같았다. 그래서 `npm start`말고 `npm run deploy`를 하니까 잘 실행되었다.
 끝.
