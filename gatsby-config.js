@@ -115,4 +115,7 @@ module.exports = {
     `gatsby-plugin-lodash`,
     `gatsby-plugin-sitemap`,
   ],
+  flags: {
+    THE_FLAG: false,
+  },
 }

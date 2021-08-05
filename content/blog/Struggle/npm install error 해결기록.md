@@ -1,7 +1,7 @@
 ---
 title: '[삽질기] npm install error 해결기록'
 date: 2021-08-02
-category: '삽질기'
+category: 'Struggle'
 draft: false
 ---
 

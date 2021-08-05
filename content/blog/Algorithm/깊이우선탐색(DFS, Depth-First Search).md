@@ -1,7 +1,7 @@
 ---
 title: '깊이우선탐색(DFS, Depth-First Search)'
 date: 2021-04-05
-category: '알고리즘'
+category: 'Algorithm'
 draft: false
 ---
 
