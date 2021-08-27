@@ -243,6 +243,18 @@ React에서 바벨적용 전 코드는 어떻게 되어있을까?
 <span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
 <p>를 추가하면 된다.</p>
 <h4 id="3-그외" style="position:relative;"><a href="#3-%EA%B7%B8%EC%99%B8" aria-label="3 그외 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. 그외</h4>
+<p>다른 스타일 사용하기</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> styled <span class="token keyword">from</span> <span class="token string">'@emotion/styled'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> Button <span class="token operator">=</span> styled<span class="token punctuation">.</span>button<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  color: red;
+  fontsize: 15px;
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> BlueBtn <span class="token operator">=</span> <span class="token function">styled</span><span class="token punctuation">(</span>Button<span class="token punctuation">)</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  color: blue;
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+<span class="token function">render</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>BlueBtn<span class="token operator">></span>btn<span class="token operator">&lt;</span><span class="token operator">/</span>BlueBtn<span class="token operator">></span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
 <p>Global styles랑 theme 지정은 styled-component랑 비슷해서 생략.</p>
 <h2 id="참고" style="position:relative;"><a href="#%EC%B0%B8%EA%B3%A0" aria-label="참고 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>참고</h2>
 <p><a href="https://emotion.sh/docs/introduction">Emotion 공식문서</a></p>
