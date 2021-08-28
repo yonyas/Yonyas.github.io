@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonyas 블로그]]></title><description><![CDATA[Yonyas 블로그]]></description><link>https://yonyas.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 Aug 2021 11:58:21 GMT</lastBuildDate><item><title><![CDATA[2021.8월 회고]]></title><link>https://yonyas.github.io/Thought/2021.8월 회고/</link><guid isPermaLink="false">https://yonyas.github.io/Thought/2021.8월 회고/</guid><pubDate>Tue, 31 Aug 2021 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Emotion with React CRA]]></title><description><![CDATA[CSS-in-JS 로는 SCSS, Styled-Components 를 써봤다. SCSS의 네스팅기능과 Styled-Components의 props를 내려받아서 활용하는 기능이 좋았다. 그러나 Styled-Components…]]></description><link>https://yonyas.github.io/CSS/Emotion에 대해/</link><guid isPermaLink="false">https://yonyas.github.io/CSS/Emotion에 대해/</guid><pubDate>Fri, 20 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CSS-in-JS 로는 SCSS, Styled-Components 를 써봤다. SCSS의 네스팅기능과 Styled-Components의 props를 내려받아서 활용하는 기능이 좋았다. 그러나 Styled-Components의 태그를 대신하는 스타일명은 컴포넌트와 헷갈렸다. 그리고 컴포넌트명이 대문자로 가득찬 코드가 이뻐보이지 않았다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonyas 블로그]]></title><description><![CDATA[Yonyas 블로그]]></description><link>https://yonyas.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Aug 2021 14:23:06 GMT</lastBuildDate><item><title><![CDATA[2021.8월 회고]]></title><description><![CDATA[엘리.
+코드스피츠
+새 프젝
+코드정리
+알고리즘
+시간이 너무 빠르게 간다.]]></description><link>https://yonyas.github.io/Thought/2021.8월 회고/</link><guid isPermaLink="false">https://yonyas.github.io/Thought/2021.8월 회고/</guid><pubDate>Tue, 31 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;엘리.
+코드스피츠
+새 프젝
+코드정리
+알고리즘
+시간이 너무 빠르게 간다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Emotion with React CRA]]></title><description><![CDATA[CSS-in-JS 로는 SCSS, Styled-Components 를 써봤다. SCSS의 네스팅기능과 Styled-Components의 props를 내려받아서 활용하는 기능이 좋았다. 그러나 Styled-Components…]]></description><link>https://yonyas.github.io/CSS/Emotion에 대해/</link><guid isPermaLink="false">https://yonyas.github.io/CSS/Emotion에 대해/</guid><pubDate>Fri, 20 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CSS-in-JS 로는 SCSS, Styled-Components 를 써봤다. SCSS의 네스팅기능과 Styled-Components의 props를 내려받아서 활용하는 기능이 좋았다. 그러나 Styled-Components의 태그를 대신하는 스타일명은 컴포넌트와 헷갈렸다. 그리고 컴포넌트명이 대문자로 가득찬 코드가 이뻐보이지 않았다.&lt;/p&gt;
 &lt;p&gt;emotion이 CSS-in-JS에서 1위를 달리고 있고 많은 기업에서 사용중이다. 어떤 특징이 있고 왜 좋은지 알아보고 싶어서 사용해보려고 한다.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/60434382/130193564-e80405bf-9249-4ed5-8264-31e71410c985.png&quot; alt=&quot;다운로드&quot;&gt;
 &lt;a href=&quot;https://www.npmtrends.com/@emotion/core-vs-styled-components&quot;&gt;npmtrends.com&lt;/a&gt;&lt;/p&gt;
