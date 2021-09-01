@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://yonyas.github.io/Thought/2021.8월 회고/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/CSS/Emotion에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/6. 중첩된 배열의 stringify 구현/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/5. OCP/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -7,6 +8,7 @@
 <url> <loc>https://yonyas.github.io/Struggle/npm install error 해결기록/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Algorithm/[프로그래머스] 로또의 최고순위와 최저순위/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Algorithm/[프로그래머스] 타겟넘버/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/Thought/취준생의 공부방향/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/CSS/[CSS] flex grow, shrink, basis에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/3.변수의 라이프사이클과 스코프/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/2.내결함성과 역할모델/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
