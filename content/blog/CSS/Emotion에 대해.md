@@ -242,6 +242,22 @@ module.exports = {
 
 #### 3. 그외
 
+다른 스타일 사용하기
+
+```js
+import styled from '@emotion/styled';
+
+const Button = styled.button`
+  color: red;
+  fontsize: 15px;
+`;
+const BlueBtn = styled(Button)`
+  color: blue;
+`;
+
+render(<BlueBtn>btn</BlueBtn>);
+```
+
 Global styles랑 theme 지정은 styled-component랑 비슷해서 생략.
 
 ## 참고
