@@ -68,17 +68,18 @@ console.log(someArr); // [1, 'b']
 
 ```js
 //완성 코드
-'abc cCC'.split(' ').map(v => {
-  v = v.slice(0, 1) + v.slice(1).toLowerCase();
-  return v;
-});
+function solution(s) {
+  s = s.toLowerCase();
+  s = s
+    .split(' ')
+    .map(v => {
+      v = v.split('');
+      v[0] = v[0].toUpperCase();
+      return v.join('');
+    })
+    .join(' ');
+  return s;
+}
 
-'abc cc'
-  .split(' ')
-  .map(v => {
-    v = v.split('');
-    v[0] = v[0].toUpperCase();
-    return v.join('');
-  })
-  .join(' ');
+solution('ACC aB');
 ```
