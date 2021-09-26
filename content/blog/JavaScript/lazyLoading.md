@@ -13,8 +13,15 @@ draft: true
 
 ### code-spliting과 lazy-loading이 필요한 이유
 
-큰 덩어리의 코드를 써야할 때가 있다. import 하거나 우리가 직접 작성한다. 이때 이 코드들은 main bundle 사이즈에 영향을 미친다. 물론 빠른 인터넷이 있다면 문제 없지만 그렇지 않은 분들과 모바일데이터를 사용하는 분들을 고려해야 한다.
+큰 덩어리의 코드를 써야할 때가 있다. import 하거나 우리가 직접 작성한다. 이때 이 코드들은 main bundle 사이즈에 영향을 미쳐서 성능저하로 이어진다. 물론 빠른 인터넷이 있다면 문제 없지만 그렇지 않은 분들과 모바일데이터를 사용하는 분들을 고려해야 한다. 사용자가 필요하지 않은 코드를 로딩하지 않는 것이 좋다.
+
+### 사용법
+
+```js
+const OtherComponent = React.lazy(() => import('./OtherComponent'));
+```
 
 ### 출처
 
-https://medium.com/free-code-camp/how-to-use-react-lazy-and-suspense-for-components-lazy-loading-8d420ecac58
+https://medium.com/free-code-camp/how-to-use-react-lazy-and-suspense-for-components-lazy-loading-8d420ecac58  
+https://ui-tricks.netlify.app/posts/2020-09-08-lazyload/
