@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonyas 블로그]]></title><description><![CDATA[Yonyas 블로그]]></description><link>https://yonyas.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 20 Oct 2021 10:44:44 GMT</lastBuildDate><item><title><![CDATA[SWR에 대해]]></title><description><![CDATA[SWR은 data fetching React hook이다. 막강한 캐싱 기능이 있다. {data, error} 로 data와 error를 받아온다. swrConfig 로 기본옵션 설정 기본 사용 조건부 fetch 가능 의존성 가져오기 user…]]></description><link>https://yonyas.github.io/React/SWR에 대해/</link><guid isPermaLink="false">https://yonyas.github.io/React/SWR에 대해/</guid><pubDate>Wed, 20 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;SWR은 data fetching React hook이다. 막강한 캐싱 기능이 있다. {data, error} 로 data와 error를 받아온다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonyas 블로그]]></title><description><![CDATA[Yonyas 블로그]]></description><link>https://yonyas.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 23 Oct 2021 08:31:28 GMT</lastBuildDate><item><title><![CDATA[SWR에 대해]]></title><description><![CDATA[SWR은 data fetching React hook이다. 막강한 캐싱 기능이 있다. {data, error} 로 data와 error를 받아온다. swrConfig 로 기본옵션 설정 기본 사용 조건부 fetch 가능 의존성 가져오기 user…]]></description><link>https://yonyas.github.io/React/SWR에 대해/</link><guid isPermaLink="false">https://yonyas.github.io/React/SWR에 대해/</guid><pubDate>Wed, 20 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;SWR은 data fetching React hook이다. 막강한 캐싱 기능이 있다. {data, error} 로 data와 error를 받아온다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;swrConfig 로 기본옵션 설정&lt;/li&gt;
 &lt;/ul&gt;
@@ -253,7 +253,197 @@
     &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이 Link 컴포넌트는 client-side-navigation 이 가능하다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[함께 자라기(애자일로 가는 길)]을 읽고]]></title><description><![CDATA[…]]></description><link>https://yonyas.github.io/Thought/함께 자라기(애자일로 가는 길)/</link><guid isPermaLink="false">https://yonyas.github.io/Thought/함께 자라기(애자일로 가는 길)/</guid><pubDate>Sun, 26 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;그동안 애자일이란 말을 들으면서도 명확한 정의를 모르고 있었다. 귀납적으로 추측해봤을 때 ‘일단 되는대로 해봅시다~’ 라는 말 대신 애자일을 쓰는게 아닌가 싶었다. 책을 다 읽고 난 지금 생각해보면 ‘일단 되는대로’라는 부분도 어느정도 맞는 말이다. 애자일이란 것 자체가 한 문장으로 정의내리기엔 어려움이 있지만 완벽한 사전설계보다 시도하면서 수정하자는 것도 애자일의 한 부분이기 때문이다.&lt;br&gt;
+&lt;p&gt;이 Link 컴포넌트는 client-side-navigation 이 가능하다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Typescript eslintrc.json 살펴보기]]></title><description><![CDATA[plugins @typesript-eslint : TS를 ESLint에서 사용할 수 있도록 ESTree-compatible form으로 변환한다. jsdoc/check-alignment : /** */ 의 블록주석을 정렬을 맞게 수정한다. no…]]></description><link>https://yonyas.github.io/etc/TypeScript eslintrc.json 살펴보기/</link><guid isPermaLink="false">https://yonyas.github.io/etc/TypeScript eslintrc.json 살펴보기/</guid><pubDate>Sun, 10 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;plugins&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#plugins&quot; aria-label=&quot;plugins permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;plugins&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token property&quot;&gt;&quot;plugins&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+	&lt;span class=&quot;token string&quot;&gt;&quot;@typescript-eslint&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;jsdoc&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;no-null&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;import&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+        &lt;span class=&quot;token comment&quot;&gt;// eslint-plugin-jsdoc&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;jsdoc/check-alignment&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+        &lt;span class=&quot;token comment&quot;&gt;// eslint-plugin-no-null&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;no-null/no-null&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+        &lt;span class=&quot;token comment&quot;&gt;// eslint-plugin-import&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;import/no-extraneous-dependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;optionalDependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;@typesript-eslint : TS를 ESLint에서 사용할 수 있도록 ESTree-compatible form으로 변환한다.&lt;/li&gt;
+&lt;li&gt;jsdoc/check-alignment : /** */ 의 블록주석을 정렬을 맞게 수정한다.&lt;/li&gt;
+&lt;li&gt;no-null : null 대신 undefined를 사용한다.&lt;/li&gt;
+&lt;li&gt;import : package.json에 선언되지 않은 외부패키지 사용을 금지한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;env&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#env&quot; aria-label=&quot;env permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;env&lt;/h2&gt;
+&lt;p&gt;어느 환경에서 스크립트가 동작할지 설정한다. 그 환경에 맞는 전역변수를 사용할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt; &lt;span class=&quot;token property&quot;&gt;&quot;env&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;browser&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;node&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;es6&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;parseroptions&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#parseroptions&quot; aria-label=&quot;parseroptions permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;parserOptions&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;&quot;parser&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@typescript-eslint/parser&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;parserOptions&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// TS가 명시적으로 지원되는 버전이 아니라면 error를 내는데 이것을 막는다.&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;warnOnUnsupportedTypeScriptVersion&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+        &lt;span class=&quot;token comment&quot;&gt;//eslint는 기본적으로 ECMAScript 5 를 지원하기 떄문에 version: 6 명시&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;ecmaVersion&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+        &lt;span class=&quot;token comment&quot;&gt;// sourceType은 parser의 export 형태를 설정&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// default 는 script, ECMAScript modules 이면 module&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;sourceType&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;module&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;rules&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rules&quot; aria-label=&quot;rules permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;rules&lt;/h2&gt;
+&lt;p&gt;(추가중)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt; &lt;span class=&quot;token property&quot;&gt;&quot;rules&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;/* overload member들을 묶어준다.
+    **from**
+    type Foo = {
+        foo(s: string): void;
+        foo(n: number): void;
+        bar(): void;
+        foo(sn: string | number): void;
+    };
+    **to**
+    type Foo = {
+        foo(s: string): void;
+        foo(n: number): void;
+        foo(sn: string | number): void;
+        bar(): void;
+    };
+    */&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/adjacent-overload-signatures&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;/*
+    **stroustrup**
+    if (foo) {
+        bar();
+    }          &amp;lt;-- enter
+    else {
+        baz();
+    }
+    */&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;brace-style&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;off&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/brace-style&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;stroustrup&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;allowSingleLine&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// enforce using interfaces for object type definitions.&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/consistent-type-definitions&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;interface&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;/* there are two kind of type assertion 1. as, 2. angle-braket
+    ** as **
+    let x = &apos;hi&apos; as const;
+
+    ** angle-bracket **
+    let x = &amp;lt;const&gt;&apos;hi&apos;;
+    */&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/consistent-type-assertions&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;assertionStyle&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;as&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;/*
+    no-duplicate-imports rule
+    ** from **
+    import { merge } from &apos;module&apos;;
+    import { find } from &apos;module&apos;;
+
+    ** to **
+    import { merge, find } from &apos;module&apos;;
+    */&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;no-duplicate-imports&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;off&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/no-duplicate-imports&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;/*
+    추론될 수 있는 타입에 굳이 타입정의 하지 말기
+    ** from **
+    const a: number = 10;
+
+    ** to **
+    const a = 10;
+    */&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/no-inferrable-types&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;//변수에 this 할당 금지&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/no-this-alias&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;//n + 1; is not a syntax error, but it might be a typing mistake where a programmer meant an assignment statement n += 1; instead&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;no-unused-expressions&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;off&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/no-unused-expressions&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;allowTernary&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;/* 인덱스가 읽기에만 쓰일 때 for문보다 of를 사용.
+    ** from **
+    for (let i = 0; i &amp;lt; arr.length; i++) {
+        console.log(arr[i]);
+    }
+
+    ** to **
+    for (const x of arr) {
+        console.log(x);
+    }
+    */&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/prefer-for-of&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;//TS v1.5 이전에는 internal-module, 이후에는 namespace로 변경되었다. namespace keyword 사용 강제해서 헷갈리지 않도록 함&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/prefer-namespace-keyword&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;//use double quote&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;quotes&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;off&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/quotes&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;double&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;avoidEscape&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;&quot;allowTemplateLiterals&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;//require semicolons instead of ASI&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;semi&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;off&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/semi&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;/*
+    함수 괄호 전에 공백 주기
+    ** from **
+    function withoutSpace(x) {
+        // ...
+    }
+
+    ** to **
+    function withSpace (x) {
+        // ...
+    }
+    */&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;space-before-function-paren&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;off&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/space-before-function-paren&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;asyncArrow&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;always&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;anonymous&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;always&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token property&quot;&gt;&quot;named&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;never&quot;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// /// 대신 import 사용&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/triple-slash-reference&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;/*
+    타입 지정 문자 전 띄어쓰기
+    ** from **
+    let foo:string = &quot;bar&quot;;
+    let foo :string = &quot;bar&quot;;
+    let foo : string = &quot;bar&quot;;
+
+    ** to **
+    let foo: string = &quot;bar&quot;;
+    */&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/type-annotation-spacing&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;/*
+    하나로 통합될 수 있는 타입지정 경고
+    ** from **
+    function f(x: number): void;
+    function f(x: string): void;
+
+    ** to **
+    function f(x: number | string): void;
+    */&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@typescript-eslint/unified-signatures&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;eslint-적용해보는-사이트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#eslint-%EC%A0%81%EC%9A%A9%ED%95%B4%EB%B3%B4%EB%8A%94-%EC%82%AC%EC%9D%B4%ED%8A%B8&quot; aria-label=&quot;eslint 적용해보는 사이트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;eslint 적용해보는 사이트&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://eslint.org/demo#eyJ0ZXh0IjoidmFyIGZvbyA9IGJhcjtcbmNvbnN0IGEgPSAwO1xuYSA9IG51bGxcbiIsIm9wdGlvbnMiOnsicGFyc2VyT3B0aW9ucyI6eyJlY21hVmVyc2lvbiI6MTIsInNvdXJjZVR5cGUiOiJzY3JpcHQiLCJlY21hRmVhdHVyZXMiOnt9fSwicnVsZXMiOnsiY29uc3RydWN0b3Itc3VwZXIiOjIsImZvci1kaXJlY3Rpb24iOjIsImdldHRlci1yZXR1cm4iOjIsIm5vLWFzeW5jLXByb21pc2UtZXhlY3V0b3IiOjIsIm5vLWNhc2UtZGVjbGFyYXRpb25zIjoyLCJuby1jbGFzcy1hc3NpZ24iOjIsIm5vLWNvbXBhcmUtbmVnLXplcm8iOjIsIm5vLWNvbmQtYXNzaWduIjoyLCJuby1jb25zdC1hc3NpZ24iOjIsIm5vLWNvbnN0YW50LWNvbmRpdGlvbiI6Miwibm8tY29udHJvbC1yZWdleCI6Miwibm8tZGVidWdnZXIiOjIsIm5vLWRlbGV0ZS12YXIiOjIsIm5vLWR1cGUtYXJncyI6Miwibm8tZHVwZS1jbGFzcy1tZW1iZXJzIjoyLCJuby1kdXBlLWVsc2UtaWYiOjIsIm5vLWR1cGUta2V5cyI6Miwibm8tZHVwbGljYXRlLWNhc2UiOjIsIm5vLWVtcHR5IjoyLCJuby1lbXB0eS1jaGFyYWN0ZXItY2xhc3MiOjIsIm5vLWVtcHR5LXBhdHRlcm4iOjIsIm5vLWV4LWFzc2lnbiI6Miwibm8tZXh0cmEtYm9vbGVhbi1jYXN0IjoyLCJuby1leHRyYS1zZW1pIjoyLCJuby1mYWxsdGhyb3VnaCI6Miwibm8tZnVuYy1hc3NpZ24iOjIsIm5vLWdsb2JhbC1hc3NpZ24iOjIsIm5vLWltcG9ydC1hc3NpZ24iOjIsIm5vLWlubmVyLWRlY2xhcmF0aW9ucyI6Miwibm8taW52YWxpZC1yZWdleHAiOjIsIm5vLWlycmVndWxhci13aGl0ZXNwYWNlIjoyLCJuby1taXNsZWFkaW5nLWNoYXJhY3Rlci1jbGFzcyI6Miwibm8tbWl4ZWQtc3BhY2VzLWFuZC10YWJzIjoyLCJuby1uZXctc3ltYm9sIjoyLCJuby1vYmotY2FsbHMiOjIsIm5vLW9jdGFsIjoyLCJuby1wcm90b3R5cGUtYnVpbHRpbnMiOjIsIm5vLXJlZGVjbGFyZSI6Miwibm8tcmVnZXgtc3BhY2VzIjoyLCJuby1zZWxmLWFzc2lnbiI6Miwibm8tc2V0dGVyLXJldHVybiI6Miwibm8tc2hhZG93LXJlc3RyaWN0ZWQtbmFtZXMiOjIsIm5vLXNwYXJzZS1hcnJheXMiOjIsIm5vLXRoaXMtYmVmb3JlLXN1cGVyIjoyLCJuby11bmRlZiI6Miwibm8tdW5leHBlY3RlZC1tdWx0aWxpbmUiOjIsIm5vLXVucmVhY2hhYmxlIjoyLCJuby11bnNhZmUtZmluYWxseSI6Miwibm8tdW5zYWZlLW5lZ2F0aW9uIjoyLCJuby11bnVzZWQtbGFiZWxzIjoyLCJuby11bnVzZWQtdmFycyI6Miwibm8tdXNlbGVzcy1jYXRjaCI6Miwibm8tdXNlbGVzcy1lc2NhcGUiOjIsIm5vLXdpdGgiOjIsInJlcXVpcmUteWllbGQiOjIsInVzZS1pc25hbiI6MiwidmFsaWQtdHlwZW9mIjoyfSwiZW52Ijp7fX19&quot;&gt;ESLint Demo - ESLint - Pluggable JavaScript linter&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;참고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0&quot; aria-label=&quot;참고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://eslint.org/&quot;&gt;ESLint - Pluggable JavaScript linter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-check-alignment&quot;&gt;eslint-plugin-jsdoc - npm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/eslint-plugin-no-null&quot;&gt;eslint-plugin-no-null - npm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/eslint-plugin-import&quot;&gt;eslint-plugin-import - npm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/@typescript-eslint/parser&quot;&gt;@typescript-eslint/parser - npm&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[[함께 자라기(애자일로 가는 길)]을 읽고]]></title><description><![CDATA[…]]></description><link>https://yonyas.github.io/Thought/함께 자라기(애자일로 가는 길)/</link><guid isPermaLink="false">https://yonyas.github.io/Thought/함께 자라기(애자일로 가는 길)/</guid><pubDate>Sun, 26 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;그동안 애자일이란 말을 들으면서도 명확한 정의를 모르고 있었다. 귀납적으로 추측해봤을 때 ‘일단 되는대로 해봅시다~’ 라는 말 대신 애자일을 쓰는게 아닌가 싶었다. 책을 다 읽고 난 지금 생각해보면 ‘일단 되는대로’라는 부분도 어느정도 맞는 말이다. 애자일이란 것 자체가 한 문장으로 정의내리기엔 어려움이 있지만 완벽한 사전설계보다 시도하면서 수정하자는 것도 애자일의 한 부분이기 때문이다.&lt;br&gt;
 이 책은 마지막 장이 되어서야 애자일을 정의내리지만 사실 앞 장 모두에서 애자일을 설명하고 있다. 책의 흐름을 따라가보자.&lt;/p&gt;
 &lt;h2 id=&quot;1장-자라기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1%EC%9E%A5-%EC%9E%90%EB%9D%BC%EA%B8%B0&quot; aria-label=&quot;1장 자라기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1장 자라기&lt;/h2&gt;
 &lt;p&gt;경력과 실력이 비례하지 않음을 설명한다. 실력없는 경력자가 많다는 뜻이다. 그렇게 되지 않기 위해 어떻게 해야 할까. 이 책은 한 때 유명했던 [1만 시간의 법칙] 을 예로 든다. 1만 시간을 투자하면 그 분야의 전문가가 될 수 있다는 내용인데 어떻게 투자하느냐가 관건이다. ‘의도적 수련’을 해야 한다. 의도적 수련에는 &lt;code class=&quot;language-text&quot;&gt;동기&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;피드백&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;적절한 난이도&lt;/code&gt;가 중요하다. 실력에 비해 적절한 난이도의 업무가 주어졌을 때 불안함이나 지루함을 최소화하고, 최고 수준의 집중력(몰입)을 발휘하여 학습능력을 최대화할 수 있다. 덤으로 최고 수준의 행복감도 경험할 수 있다.&lt;br&gt;
