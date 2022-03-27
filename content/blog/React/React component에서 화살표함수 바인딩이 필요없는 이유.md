@@ -1,7 +1,7 @@
 ---
 title: 'React component에서 화살표함수는 바인딩이 필요없는 이유'
 date: 2021-10-23
-category: 'JavaScript'
+category: 'React'
 draft: false
 ---
 
@@ -18,15 +18,14 @@ var man = { name: 'jack' };
 ### 1 - 기본적인 bind
 
 ```js
-//foo 함수안의 this를 man에 bind 하라.
-foo = foo.bind(man);
+foo = foo.bind(man); //foo 함수의 this를 man에 bind
 foo(); // 'jack'
 ```
 
 ### 2 - man 프로퍼티에 지정
 
 ```js
-man.foo = foo;
+man.foo = foo; // foo 함수의 this가 man을 바라보게 된다.
 man.foo(); // 'jack'
 ```
 
@@ -45,7 +44,11 @@ bar(); // 'jack'
 ### 4 - `foo()`가 화살표 함수라면?
 
 ```js
-//this 는 호출한 형태에 따라 결정된다고 했는데 그건 일반함수의 경우이다. man.foo() 이면 man 이 this 에 바인딩 되어야 하는 것 같지만 되지 않았다.
+const foo = () => {
+  console.log(this.name);
+};
+
+//보통 this 는 호출한 형태에 따라 결정된다고 하는데 그건 일반함수의 경우이다. man.foo() 이면 man 이 this 에 바인딩 되어야 하는 것 같지만 아래와 같이 예상대로 되지 않았다.
 man.foo = foo;
 man.foo(); // undefined
 
@@ -54,11 +57,11 @@ foo.bind(man);
 man.foo(); // undefined
 ```
 
-**이유 : arrow function 에 rebind할 수 없다. 정의된 컨텍스트와 함께 호출된다.**
+**이유 : arrow function 에 rebind할 수 없다. 화살표함수의 this는 정의된 컨텍스트와 함께 호출된다.**
 
 ## 호출할 때 this 를 잃어버리는 개념이 React component 만들 때 쓰인다.
 
-- React에서 클래스형 컴포넌트에서 함수를 만들 때 일반함수로 만든다면 아래와 같이 this 바인드를 해줘야 한다.
+- React 클래스형 컴포넌트에서 함수를 만들 때 일반함수로 만든다면 아래와 같이 this 바인드를 해줘야 한다.
 
 ```js
 class Foo extends Component {
@@ -77,7 +80,7 @@ class Foo extends Component {
 }
 ```
 
-`console.dir(Foo)`를 해보면 `cb1`함수는 `Foo` 클래스의 프로토타입 프로퍼티에 할당되어 있다.(밑에서 설명)
+`console.dir(Foo)`를 해보면 `cb1`함수는 `Foo` 클래스의 프로토타입 프로퍼티에 할당되어 있다.
 
 - 화살표 함수로 만든다면 바인딩할 필요가 없다. - 이유 : 화살표 함수 cb1은 class Foo 컨텍스트 안에서 생성됐기 때문
 
