@@ -12,6 +12,4 @@ lang: 'en'
 🐱 Github: github.com/Yonyas  
 💻 Blog : yonyas.github.io
 
-[이력서\_프론트엔드\_이지연.pdf](https://github.com/yonyas/levelup-todo/files/7284199/_.pdf)
-
 </div>

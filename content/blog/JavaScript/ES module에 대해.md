@@ -61,7 +61,7 @@ import { count } from './counter.js';
 
 파일을 컴파일하기 전까지는 이 파일이 다른 어떤 모듈에 의존하는지 알 수 없다. 모든 의존성 그래프를 한번에 그릴 수는 없다. 그렇다고 모든 모듈이 컴파일 될 때까지 main 쓰레드를 멈춘다면 앱 작동이 너무 늦을 것이다. 그래서 ES module spec은 위와 같이 3단계로 나누는 것이다.
 
-\*CommonJS는 1,2,3 단계를 한번에 수행한다. module instance를 리턴하기 전에 로딩, initiating, evaluating을 모두 수행하는 것이다. 이 때문에 module specifier에 변수 사용이 가능하다.
+\*CommonJS는 1,2,3 단계를 한번에 수행한다. module instance를 리턴하기 전에 로딩, instantiating, evaluating을 모두 수행하는 것이다. 이 때문에 module specifier에 변수 사용이 가능하다.
 
 ES module은 module graph를 evaluation 이전에 그린다. 그래서 실제 값이 없는 상태이기 때문에 module specifier에 변수 사용이 불가능하다.
 
