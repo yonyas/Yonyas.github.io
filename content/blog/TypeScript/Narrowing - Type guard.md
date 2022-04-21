@@ -9,6 +9,7 @@ draft: false
 
 <br />
 
+Narrowing이란 ?  
 함수에서 인자가 string, number를 받을 때, 조건문으로 코드 윗부분에서 `typeof something === number` 으로 만들어주면 아래 코드는 그 외의 타입인 `string`  으로 인식된다.
 
 예시를 보자.
@@ -170,7 +171,7 @@ if (isFish(pet)) {
 }
 ```
 
-# Discriminated unions
+## Discriminated unions
 
 이 방법은 “공통된 프로퍼티를 넣어줘서 구분하기”다.
 

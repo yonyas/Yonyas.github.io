@@ -8,8 +8,6 @@ draft: false
 > 공식문서 읽다가 타입스크립트를 사용하면서 잘 안쓰던 것들, 주의할 점들 위주로 적어봅니다.
 
   <br />
-  <br />
-  <br />
 
 ## Setting defaults
 
