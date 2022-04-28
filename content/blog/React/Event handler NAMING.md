@@ -1,7 +1,7 @@
 ---
 title: '[REACT] Event handler NAMING'
 date: 2022-04-22
-category: 'TIL'
+category: 'React'
 draft: false
 ---
 

@@ -2,7 +2,7 @@ module.exports = {
   title: `Yonyas 블로그`,
   description: ``,
   author: `Jiyon Lee`,
-  introduction: `뿌리깊은 나무`,
+  introduction: `뜨거운 코드를 가르며`,
   siteUrl: `https://yonyas.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -28,4 +28,4 @@ module.exports = {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
   ga: '0', // Add your google analytics tranking ID
-}
+};
