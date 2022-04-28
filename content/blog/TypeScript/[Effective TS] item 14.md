@@ -1,5 +1,5 @@
 ---
-title: '[TypeScript] 이펙티브 타입스크립트 : 타입 연산과 제네릭 사용으로 반복 줄이기'
+title: '[Book] 이펙티브 타입스크립트 : 타입 연산과 제네릭 사용으로 반복 줄이기'
 date: 2022-04-28
 category: 'TypeScript'
 draft: false
