@@ -2,7 +2,7 @@
 title: 'Multi key event 인식하는 커스텀 훅 만들기'
 date: 2022-09-04
 category: 'React'
-draft: false
+draft: true
 ---
 
 `command + A`, `alt + S` 같은 조합키가 눌렸을 때 함수를 실행하려면 어떻게 해야 할까.
