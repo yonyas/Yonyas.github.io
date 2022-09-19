@@ -1,5 +1,5 @@
 ---
-title: 'JavaScript로 함수형코딩 배우기'
+title: 'JavaScript로 함수형코딩 배우기 by Anjana Vakil'
 date: 2022-09-06
 category: 'etc'
 draft: false
