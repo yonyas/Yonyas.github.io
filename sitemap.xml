@@ -9,8 +9,8 @@
 <url> <loc>https://yonyas.github.io/TypeScript/[Effective TS] item 15/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/TypeScript/[Effective TS] item 14/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/React/Event handler NAMING/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/TypeScript/Narrowing - Type guard/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/TypeScript/Object Types/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://yonyas.github.io/TypeScript/Narrowing - Type guard/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/React/JSX vs FC/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/ES module에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/etc/객체지향의 사실과 오해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -23,7 +23,6 @@
 <url> <loc>https://yonyas.github.io/Thought/함께 자라기(애자일로 가는 길)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/promise/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/실행컨텍스트/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Algorithm/[프로그래머스] Jaden Case - JS/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Algorithm/그리디에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Thought/2021.8월 회고/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/CSS/Emotion에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -31,9 +30,7 @@
 <url> <loc>https://yonyas.github.io/JavaScript/5. OCP/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/4. if와 if else, for과 while을 언제 쓰는가/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Struggle/npm install error 해결기록/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Algorithm/[프로그래머스] 로또의 최고순위와 최저순위/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Thought/2021.7월 회고/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Algorithm/[프로그래머스] 타겟넘버/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/CSS/[CSS] flex grow, shrink, basis에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/3.변수의 라이프사이클과 스코프/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/JavaScript/2.내결함성과 역할모델/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -47,13 +44,11 @@
 <url> <loc>https://yonyas.github.io/React-native/[ReactNative expo] 시작할 때 알면 좋은 것들(에러해결기)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Projects/은행의집/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Projects/코코아 프렌즈 마트/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Algorithm/[LeetCode] 64. Minimum Path Sum - JS/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Projects/[React] 인스타그램/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Struggle/[우분투] 우분투에서 와콤 세팅 삽질기록/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Projects/인스타그램/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/CSS/[CSS] float에 대해/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Algorithm/깊이우선탐색(DFS, Depth-First Search)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://yonyas.github.io/Algorithm/[LeetCode] 283. Move Zeroes - python/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/Projects/점프 게임/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/CSS/img태그를 이용해서 이미지가 항상 center를 보여주도록 반응형 배경 만들기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://yonyas.github.io/CSS/검색창 클릭시 아이콘 포함 테두리 생기기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
