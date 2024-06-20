@@ -1,5 +1,5 @@
 ---
-title: 'HashRouter vs BrowserRouter'
+title: '[React Router] HashRouter vs BrowserRouter'
 date: 2022-09-19
 category: 'React'
 draft: false

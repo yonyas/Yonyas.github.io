@@ -1,7 +1,7 @@
 {
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.markdownlint": true
+    "source.fixAll.markdownlint": "explicit"
   },
   "workbench.colorCustomizations": {
     "activityBar.background": "#143238",
